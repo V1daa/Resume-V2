@@ -123,8 +123,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Material UI",
-      Image: "/mui.png",
+      skill_name: "Bootstrap",
+      Image: "/bootstrap.webp",
       width: 80,
       height: 80,
     },
@@ -168,8 +168,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Express js",
-      Image: "/express.png",
+      skill_name: "C++",
+      Image: "/C++.png",
       width: 80,
       height: 80,
     },
@@ -192,14 +192,14 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "My SQL",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
+      skill_name: "Java",
+      Image: "/java.png",
+      width: 80,
+      height: 80,
     },
     {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
+      skill_name: "Photoshop",
+      Image: "/photoshop.png",
       width: 70,
       height: 70,
     },
@@ -244,9 +244,9 @@ export const Skill_data = [
   
   export const Other_skill = [
     {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
+      skill_name: "Blender",
+      Image: "/blender.png",
+      width: 70,
+      height: 70,
     },
   ];
