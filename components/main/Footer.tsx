@@ -25,15 +25,15 @@ const Footer = () => {
             <div className="font-bold text-[16px]">Community</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaTelegram />
-              <span className="text-[15px] ml-[6px] z-[180]">Telegram</span>
+              <span className="text-[15px] ml-[6px] z-[180]"><a href="https://t.me/v1daaaa" target="_blank">Telegram</a></span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxGithubLogo />
-              <span className="text-[15px] ml-[6px] z-[180]">Github</span>
+              <span className="text-[15px] ml-[6px] z-[180]"><a href="https://github.com/V1daa" target="_blank">Github</a></span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaFreeCodeCamp />
-              <span className="text-[15px] ml-[6px] z-[180]">FreeCodeCamp</span>
+              <span className="text-[15px] ml-[6px] z-[180]"><a href="https://www.freecodecamp.org/ViDA_" target="_blank">FreeCodeCamp</a></span>
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
