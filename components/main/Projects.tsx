@@ -15,11 +15,13 @@ const Projects = () => {
             title="Modern Next.js Portfolio"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo consectetur reiciendis nobis amet sit, reprehenderit exercitationem animi, quos nisi rerum corporis porro accusamus nesciunt, ab dolor voluptates sunt magnam!"
           />
+          <Link href="https://notion-henna-mu.vercel.app" target="_blank" className="cursor-pointer z-[80]">
           <ProjectCard
-            src="/CardImage.png"
-            title="Modern Next.js Portfolio"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo consectetur reiciendis nobis amet sit, reprehenderit exercitationem animi, quos nisi rerum corporis porro accusamus nesciunt, ab dolor voluptates sunt magnam!"
+            src="/notion.jpg"
+            title="Notion with multicursor"
+            description="Full-stack notion copy with multicursor. Perfect orginizer for group projects or for big groups of students. Product is ready for deploy and commercial usage. Saas web-page with backend authentication. Perfect for collaborations "
           />
+          </Link>
           <Link href="https://all-in-one-five.vercel.app" target="_blank" className="cursor-pointer z-[80]">
             <ProjectCard
               src="/AllInOne.jpg"
