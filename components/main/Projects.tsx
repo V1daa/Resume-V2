@@ -10,11 +10,13 @@ const Projects = () => {
           My projects
         </h1>
         <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <Link href="https://board-eight-blush.vercel.app" target="_blank" className="cursor-pointer z-[80]">
           <ProjectCard
             src="/board.jpg"
             title="Boardy"
             description="Perfect app for big companies and groups of sudents. Plan you'r buissnes strategy, apointments, prepare for exams with you'r group in real time and more. Created with support of convex database and clerk authentification"
           />
+          </Link>
           <Link href="https://notion-henna-mu.vercel.app" target="_blank" className="cursor-pointer z-[80]">
           <ProjectCard
             src="/notion.jpg"
