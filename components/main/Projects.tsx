@@ -11,9 +11,9 @@ const Projects = () => {
         </h1>
         <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
           <ProjectCard
-            src="/NextWebsite.png"
-            title="Modern Next.js Portfolio"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo consectetur reiciendis nobis amet sit, reprehenderit exercitationem animi, quos nisi rerum corporis porro accusamus nesciunt, ab dolor voluptates sunt magnam!"
+            src="/board.jpg"
+            title="Boardy"
+            description="Perfect app for big companies and groups of sudents. Plan you'r buissnes strategy, apointments, prepare for exams with you'r group in real time and more. Created with support of convex database and clerk authentification"
           />
           <Link href="https://notion-henna-mu.vercel.app" target="_blank" className="cursor-pointer z-[80]">
           <ProjectCard
