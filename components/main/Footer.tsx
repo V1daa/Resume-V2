@@ -1,10 +1,6 @@
 import React from "react";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
 } from "react-icons/rx";
 
 import {
@@ -12,9 +8,8 @@ import {
   FaFreeCodeCamp,
   FaLinkedin,
   FaTelegram,
-  FaYoutube,
+  FaUikit,
 } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -40,26 +35,26 @@ const Footer = () => {
             <div className="font-bold text-[16px] z-[180]">Social Media</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaFacebook />
-              <span className="text-[15px] ml-[6px] z-[180]">Facebook</span>
+              <span className="text-[15px] ml-[6px] z-[180]"><a href="https://www.facebook.com/profile.php?id=61552239535206" target="_blank">Facebook</a></span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <FaSquareXTwitter />
-              <span className="text-[15px] ml-[6px] z-[180]">Twitter</span>
+              <FaUikit />
+              <span className="text-[15px] ml-[6px] z-[180]"><a href="https://leetcode.com/ViDa-la-ViDA/" target="_blank">LeetCode</a></span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaLinkedin />
-              <span className="text-[15px] ml-[6px] z-[180]">Linkedin</span>
+              <span className="text-[15px] ml-[6px] z-[180]"><a href="https://www.linkedin.com/in/dmytro-volianskyi-703771298/" target="_blank">Linkedin</a></span>
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px] z-[180]">About</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p className="flex flex-row items-center my-[15px]">
               <span className="text-[15px] ml-[6px] z-[180]">Poznan, Poland</span>
             </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px] z-[180]">+48 574 655 232</span>
+            <p className="flex flex-row items-center my-[15px]">
+              <span className="text-[15px] ml-[6px] z-[180]">+48 792 945 335</span>
             </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p className="flex flex-row items-center my-[15px]">
               <span className="text-[15px] ml-[6px] z-[180]">
                 volia.d.vida@gmail.com
               </span>
