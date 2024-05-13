@@ -22,14 +22,14 @@ const Projects = () => {
             />
           </Link>
           <Link
-            href="https://notion-henna-mu.vercel.app"
+            href="https://frontend-eta-tawny.vercel.app/"
             target="_blank"
             className="cursor-pointer z-[80]"
           >
             <ProjectCard
-              src="/notion.jpg"
-              title="Notion with multicursor"
-              description="Full-stack notion copy with multicursor. Perfect orginizer for group projects or for big groups of students. Product is build with use of supabase, socket.io, drizzle ORD and tailwind. Stripe would enable payments in next versions "
+              src="/ecom.jpg"
+              title="Ecommerce"
+              description="Ecommerce website build by using the MERN stack. To use an admin page go to https://vercel.com/dmytros-projects-e17888e6/admin .Fully responsive and fully working web store with self made user authentication using jwt tokens"
             />
           </Link>
           <Link
